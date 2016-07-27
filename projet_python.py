@@ -23,7 +23,7 @@ class Matrix(object):
         return self._matrix
 
     def fill_matrix(self):
-        'Méthode de remplissage'
+        'Méthode de remplissage de matrices'
         for i in range(self._number_columns):
             values = input("Entrer "+str(self._number_rows)+" nombre séparé par des virgules: ")
             self._matrix[i] = values.split(",")
